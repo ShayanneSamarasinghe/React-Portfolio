@@ -7,9 +7,9 @@ const NavBar = (props) => {
   const toggle = () => setDropdownOpen(!dropdownOpen);
 
   return (
-    <div className="mx-auto">
+    <div className ="d-flex justify-content-center">
      
-      <Nav>
+      <Nav className='m-auto'>
         <NavItem >
           <NavLink href="/">about me</NavLink>
         </NavItem>
