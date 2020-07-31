@@ -3,8 +3,8 @@ import React from 'react'
 const Portfolio = (props) => {
     return (
         <div>
-            Portfolio
-    <h1>{props.message}</h1>
+           This is specific to this route  
+    
         </div>
     )
 }

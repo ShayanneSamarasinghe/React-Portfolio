@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+#logo{
+  width:  80px;
+  opacity: 0.88;
+  padding: 2
+}
+
+
+.socialTitle{
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
