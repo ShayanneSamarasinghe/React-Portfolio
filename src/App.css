@@ -1,40 +1,8 @@
-.App {
-  text-align: center;
-}
+.NavBar{
+  background-color:#ccccff;
+  border-color: white;
+  height: 55px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 #logo{
@@ -48,3 +16,81 @@
   text-align: center;
   font-family: 'Noto Sans JP', sans-serif;
 }
+
+.NavItem{
+  padding-top: 27px;
+  padding-right: 4rem;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+
+
+}
+
+body{
+  background-color: #ffcccc;
+}
+
+.Bio{
+  
+  border-radius: 3px;
+  background-color:#ccccff;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 900;
+  font-size: 19px;
+  
+
+}
+
+.outerBorder{
+  padding-top: 80px;
+
+}
+
+.Para{
+  padding:15px;
+}
+
+#ShayannePic{
+  border: 5px solid #ddd;
+  border-radius: 4px;
+  padding: 0px;
+  width: 275px;
+  margin-right: 44px;
+  border-color: white;
+ 
+ 
+  
+}
+
+#dogPic{
+  border: 5px solid #ddd;
+  border-radius: 4px;
+  padding: 0px;
+  width: 275px;
+  margin-right: 44px;
+  border-color: white;
+  object-fit: cover;
+ 
+
+}
+
+#shywithcamPic{
+  border: 5px solid #ddd;
+  border-radius: 4px;
+  padding: 0px;
+  width: 275px;
+  margin-right: 44px;
+  border-color: white;
+  object-fit: cover;
+ 
+
+}
+
+#imgdiv{
+  justify-content: center;
+  margin:0 auto;
+}
+
+
+

@@ -5,8 +5,9 @@ import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
-import NavBar from "./components/navbar";
+import Header from "./components/Header";
 import Footer from "./components/Footer"
+
 
 
 
@@ -15,7 +16,7 @@ function App() {
     <Fragment>
       <Router>
        
-        <NavBar/>
+        <Header/>
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" render={() => <Portfolio message="hey"/>} />
