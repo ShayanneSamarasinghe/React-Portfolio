@@ -8,15 +8,19 @@ import {
 const Cards = (props) => {
   return (
     <div>
-      <Card>
-        <CardBody>
-          <CardTitle>{props.name}</CardTitle>
+      <br></br>
+      <br></br>
+      <div className="container Carddd">
+      <Card className= "Card">
+        <CardBody className="d-flex justify-content-center">
+          <CardTitle className="cardTitle">{props.name}</CardTitle>
         </CardBody>
-        <CardBody>
+        <CardBody className="d-flex justify-content-center">
           <CardLink href={props.repoLink}>Repo Link</CardLink>
           <CardLink href={props.appLink}>App Link</CardLink>
         </CardBody>
       </Card>
+      </div>
     </div>
 
 

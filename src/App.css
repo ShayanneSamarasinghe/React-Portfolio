@@ -92,5 +92,26 @@ body{
   margin:0 auto;
 }
 
+.Card{
+  border-radius: 10px;
+  background-color:#ccccff;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 900;
+  font-size: 19px;
+ 
+  
+  
+
+}
 
 
+
+.cardTitle{
+  color: white;
+  font-weight: 900;
+}
+
+.Carddd{
+  width:475px
+
+}
