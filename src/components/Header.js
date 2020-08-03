@@ -17,7 +17,7 @@ const Header = (props) => {
           <NavLink href="/portfolio">portfolio</NavLink>
         </NavItem>
         <NavItem className="NavItem">
-          <NavLink href="https://shayannesamarasinghe.github.io/Shayanne-s-Resume/" target="_blank">resume</NavLink>
+          <NavLink href="../AnotherAssets/ShayanneSamarasingheResume2020.pdf" target="_blank">resume</NavLink>
         </NavItem>
       </Nav>
     </div>
