@@ -20,6 +20,7 @@ function App() {
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" render={() => <Portfolio message="hey"/>} />
+          <Route exact path="/resume" 
        
         <Footer style={{margin: 'auto ', paddingTop: '15px'}}/>
       </Router>
